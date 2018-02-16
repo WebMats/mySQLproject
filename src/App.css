@@ -1,0 +1,14 @@
+.App {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5); 
+  color: rgb(66,69,86);
+  height: 100%;
+  background-image: url("./assets/images/background.jpg");
+  background-size: cover;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+
+}
+
