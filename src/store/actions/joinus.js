@@ -14,7 +14,7 @@ export const setEmails = (emails) => { //called after fetching emails to pass th
 
 export const retriveEmails = () => { // will fetch emails from firebase database
 	return dispatch => {
-		axios.get('emails/-L5M0CtQD200fOxpU41w.json')
+		axios.get('//path')
 	.then(response => {
 		dispatch(setEmails(response.data));
 	}).catch (error => {
